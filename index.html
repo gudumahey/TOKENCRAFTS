@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TOKENCRAFTS Server</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1f1f2e);
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 80px 20px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* 🎇 Floating title animation */
+    h1 {
+      font-size: 50px;
+      color: #00ffcc;
+      animation: float 3s ease-in-out infinite;
+      text-shadow: 0 0 20px #00ffcc;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.8;
+      animation: fadeIn 3s ease-in;
+    }
+
+    .card {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      display: inline-block;
+      border-radius: 15px;
+      animation: slideUp 1.5s ease-in-out;
+      backdrop-filter: blur(5px);
+    }
+
+    /* 🔘 Buttons */
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background: #00ffcc;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.3s;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px #00ffcc;
+      background: #00bfa6;
+    }
+
+    /* ✨ Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0px); }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🔥 TOKENCRAFTS SERVER</h1>
+    <p>Welcome to the ultimate gaming community</p>
+
+    <div class="card">
+      <p>🎮 Join us & play with friends</p>
+      <p>💬 Discord + Events + Fun</p>
+    </div>
+
+    <br><br>
+
+    <a class="btn" href="https://discord.gg/kxmeK4dtt" target="_blank">Join Discord</a>
+    <a class="btn" href="#">Server IP</a>
+    <a class="btn" href="#">Rules</a>
+  </div>
+
+</body>
+</html>
